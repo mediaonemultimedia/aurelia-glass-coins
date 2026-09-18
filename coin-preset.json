@@ -1,0 +1,45 @@
+{
+  "$comment": "Arbutex coin look, tuned 2026-09-18. Consumed by arbutex-web's CoinField; also the demo's baked defaults.",
+  "rim": {
+    "color": "#FFD9A0",
+    "attenuationColor": "#F5C071",
+    "transmission": 0.96,
+    "roughness": 0.13,
+    "thickness": 0.9,
+    "ior": 1.48,
+    "attenuationDistance": 8,
+    "envMapIntensity": 3.4,
+    "clearcoat": 1,
+    "clearcoatRoughness": 0.04,
+    "iridescence": 0.08,
+    "metalness": 0
+  },
+  "field": {
+    "color": "#F5F2EA",
+    "attenuationColor": "#DBE7E5",
+    "transmission": 1,
+    "roughness": 0.05,
+    "thickness": 0.1,
+    "ior": 1.28,
+    "attenuationDistance": 80,
+    "envMapIntensity": 0.5,
+    "clearcoat": 1,
+    "clearcoatRoughness": 0.025,
+    "iridescence": 0.05,
+    "metalness": 0
+  },
+  "glyph": {
+    "color": "#C98B2E",
+    "emissive": "#160E02",
+    "emissiveIntensity": 1,
+    "transmission": 0,
+    "thickness": 0,
+    "roughness": 0.28,
+    "metalness": 0.45,
+    "envMapIntensity": 1.6,
+    "clearcoat": 0.5,
+    "clearcoatRoughness": 0.12,
+    "iridescence": 0
+  },
+  "lights": { "key": 560, "fill": 300, "rim": 460, "ambient": 1.9 }
+}
